@@ -1,0 +1,13 @@
+void setup() {
+pinMode(8,OUTPUT);  // Defining 8th Pin as output
+
+digitalWrite(8,HIGH);  // Entering command like 8th pin should be Activated
+delay(3600000); // delay for the command line above 
+
+digitalWrite(8,LOW); // Entering command like 8th pin should be Deactivated
+}
+
+void loop() {
+
+ 
+}
